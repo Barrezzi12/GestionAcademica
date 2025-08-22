@@ -9,7 +9,7 @@ public class Profesor {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long idProfesor;
+    private Integer idProfesor;
 
     private String nombreProfesor;
 
