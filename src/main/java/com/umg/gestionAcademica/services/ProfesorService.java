@@ -58,6 +58,7 @@ public class ProfesorService {
     private ProfesorDTO convertirAProfesorDTO(Profesor profesor) {
         return new ProfesorDTO(profesor.getNombreProfesor(), profesor.getCorreoProfesor());
     }
+    
     public List<ProfesorDTO> obtenerProfesoresPorCorreo(String correo) {
     List<Profesor> profesores;
     if (correo == null || correo.isEmpty()) {
